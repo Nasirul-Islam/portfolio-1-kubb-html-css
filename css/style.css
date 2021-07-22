@@ -247,11 +247,132 @@ a {
 }
 /* journal section end */
 
-/* menu section start */
-/* menu section end */
+/* about section start */
+.about-full {
+    padding: 20px 0 80px;
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-me h2 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
 
-/* menu section start */
-/* menu section end */
+.about-me-content {
+    display: flex;
+}
 
-/* menu section start */
-/* menu section end */
+.about-me-text h4 {
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.about-me-text p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.my-service h2 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.my-service-content h3 {
+    color: #444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 26px;
+    margin-left: 70px;
+}
+.my-service-content p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-left: 70px;
+}
+
+
+/* about section end */
+
+/* menu-footer section start */
+.menu-footer {
+    padding: 70px 0 70px;
+    background: #373737;
+}
+.footer-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+.footer-content h2 {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-content p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.footer-content h4 {
+    color: #929292;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-content .address {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.footer-content .ex-mar {
+    margin-left: 35px;
+}
+.footer-content .icon {
+    color: #cacaca;
+    font-size: 14px;
+}
+/* menu-footer section end */
+
+/* footer section start */
+.footer {
+    padding: 50px 0 50px;
+    background: #333;
+}
+.footer p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/* footer section end */
