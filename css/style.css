@@ -304,6 +304,7 @@ a {
     line-height: 26px;
     margin-left: 70px;
 }
+
 .my-service-content p {
     color: #666;
     font-size: 14px;
@@ -311,6 +312,12 @@ a {
     font-family: 'Roboto', sans-serif;
     line-height: 24px;
     margin-left: 70px;
+}
+
+.my-service-content i {
+    color: #27b7d7;
+    font-size: 40px;
+    position: absolute;
 }
 
 
